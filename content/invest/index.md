@@ -15,7 +15,8 @@ weight: 4
 
 <br>
 
-{% row(style="center" bgColor="#FFFFFF" margin="moderate" padding="both") %}
+{% row(style="center" bgColor="#EDEBE4
+" margin="moderate" padding="both") %}
 
 # BECOME AN INVESTOR 
 

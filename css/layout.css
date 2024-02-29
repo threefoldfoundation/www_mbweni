@@ -76,11 +76,11 @@ nav h4 a:hover {
 nav h4 a,
 nav h4 a:focus,
 nav h4 a:active {
-  @apply border-0 text-black font-light;
+  @apply border-0 text-white font-light;
 }
 
 a h2 {
-  @apply text-black;
+  @apply text-white;
 }
 
 a:focus,

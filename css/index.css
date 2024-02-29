@@ -8,14 +8,20 @@
 @import "admonition.css";
 @import "tailwindcss/utilities";
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=raleway:wght@300;400;700;900&family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* Custom CSS for header partial */
 .backdrop-blur {
   -webkit-backdrop-filter: blur(40px);
 }
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'raleway', sans-serif;
 }
 
 .bg-semi-white {
@@ -84,7 +90,7 @@ img[src*="#fig"] {
 
 .advance{
 
-  font-family: "lato";
+  font-family: "raleway";
 }
 
 a:hover {
@@ -93,7 +99,7 @@ a:hover {
 @layer components {
   h1 {
     @apply text-3xl md:text-4xl lg:text-6xl font-bold leading-none my-4;
-    font-family: "lato", sans-serif;
+    font-family: "raleway", sans-serif;
     line-height: 0.9;
     
   }
@@ -102,7 +108,7 @@ a:hover {
   }
   h2 {
     @apply text-3xl md:text-4xl lg:text-5xl font-bold leading-none my-4;
-    font-family: "lato", sans-serif;
+    font-family: "raleway", sans-serif;
     line-height: 0.9;
     
   }
@@ -110,7 +116,7 @@ a:hover {
     @apply font-medium;
   }
   h3 {
-    @apply text-xl lg:text-4xl font-normal my-4;
+    @apply text-xl lg:text-4xl font-normal my-4 text-black;
   }
   h3 strong {
     @apply font-medium;
@@ -126,7 +132,7 @@ a:hover {
   }
   p {
     @apply text-base lg:text-xl leading-tight tracking-normal font-normal my-4;
-    font-family: "CercoDEMO", sans-serif;
+    font-family: "Raleway", sans-serif;
   }
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
@@ -186,7 +192,8 @@ header .freeflow {
 }
 
 footer .freeflow {
-    background-color: #FFFFFF;
+    background-color: #EDEBE4
+;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,15 +208,16 @@ footer .freeflow img {
 
 header .freeflow div {
     box-shadow: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 700 !important;
 }
 
 button {
-  background: transparent;
+  background: #EDEBE4;
+  ;
   color: black;
   border-radius: 10px;
-  border: 2px solid black;
+  border: none;
   box-shadow: none;
   font-size: 20px;
 }
@@ -219,7 +227,7 @@ a {
 }
 
 header {
-  font-family: "Work Sans";
+  font-family: "La Belle Aurore";
 }
 
 .nav_btn {
@@ -298,7 +306,7 @@ header {
 }
 
 .header h1 {
-  color: #000;
+  color: #fff;
   transition: none;
 }
 

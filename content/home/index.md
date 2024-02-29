@@ -10,19 +10,24 @@ weight: 1
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="tight" bgPath="homeheader.jpg" bgStyle="full") %}
+{% row(style="center" margin="moderate" bgPath="homeheader.jpg" bgStyle="full") %}
 
 <br>
 
 <br>
 
-<div class="bg-gray-200/50 py-4 px-4 rounded-md">
+<div class="container mx-auto">
 
-# WORK, LIVE & PLAY
+![img](./newlogo.png#small#mx-auto)
 
-Our world offers Digital Nomads truly amazing experiences in some of the world’s best locations.
+# Mbweni Ruins and Gardens
 
-<button>[KNOW MORE](/locations)</button>
+### A regenerative hub within the heart of Zanzibar
+
+<p>More than just a resort, at Mbweni, we envision a regenerative community 
+<br>fostering creative innovation, playful learning, and sustainable growth.</p>
+
+<button>[Know More](/about)</button>
 
 </div>
 
@@ -35,27 +40,22 @@ Our world offers Digital Nomads truly amazing experiences in some of the world�
 
 {% row(style="center" margin="moderate" padding="both") %}
 
+
 ![REGENERATION](RGAsset10.png#medium#mx-auto)
 
-### **REGENERATION**
-
-We offer endless services to heal the body, mind and soul
+<button>[Our Story](/about)</button>
 
 |||
 
 ![CONNECTIONS](RGAsset11.png#medium#mx-auto)
 
-### **CONNECTIONS**
-
-Our locations are designed to provide intimacy and bring people together
+<button>[Our Philosophy](/about)</button>
 
 |||
 
 ![EXPERIENCE](RGAsset12.png#medium#mx-auto)
 
-### **EXPERIENCE**
-
-An enviroment that meets people’s personal and professional needs
+<button>[Our Manifesto](/about)</button>
 
 {% end %}
 

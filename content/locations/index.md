@@ -13,7 +13,8 @@ weight: 2
 
 <!-- section 1 (JP) -->
 
-{% row(bgColor="#FFFFFF" margin="moderate" padding="both" id="fflow_grid") %}
+{% row(bgColor="#EDEBE4
+" margin="moderate" padding="both" id="fflow_grid") %}
 
 ![jp](img/jp2.jpg#mx-auto)
 
@@ -76,7 +77,8 @@ The top class restaurant offers breakfast, lunch and dinner in a range of cuisin
 
 <!-- section 3 (Veda boats) -->
 
-{% row(bgColor="#FFFFFF" margin="moderate" padding="both" id="fflow_grid") %}
+{% row(bgColor="#EDEBE4
+" margin="moderate" padding="both" id="fflow_grid") %}
 
 ![veda](img/nile2.jpg#mx-auto)
 
@@ -155,7 +157,8 @@ There are 32 hectares of built-up land in the plot, consisting of 10 bungalows w
 
 <!-- section 5 (FARMS) -->
 
-{% row(reverse="rightreserve" style="right" bgColor="#FFFFFF" reserve="rightreserve" margin="moderate" padding="top" id="fflow_grid") %}
+{% row(reverse="rightreserve" style="right" bgColor="#EDEBE4
+" reserve="rightreserve" margin="moderate" padding="top" id="fflow_grid") %}
 
 ### FARMS
 MULTIPLE LANDS IN TANZANIA
